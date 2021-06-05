@@ -1,0 +1,46 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      name: config-server
+      server:
+        git:
+          uri: git@e.coding.net:qmaolong/spring-cloud-config.git
+          ignoreLocalSshSettings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAtu4yrI0rGhPKxiufr14v12OWbehbYMz7kIIbynaxdC1/NezW
+            DnpLYmu12Yd0maBa9c23tdTUPcd/jbYJJBrTu/ptiSupHEaagzlPxOFTzd7D1W1C
+            u0degdDYKpzE6wEk6x0hD7SNkrFhjlZGvReOSzv68CoeELhs6oT2e3O1FWv38zjR
+            h02Myin5cVgP3l7X4yX4OUFbWiW0Khx7/0Ws9l9dFsb1R/Rh2Dr2avP0CXjlp07o
+            MGj3OLsugIMBe81BKNwQNHD3bV6wRiZXtwA9cUOgNkbbV1qRapCByLbhmkUCFbx/
+            NKplYdzlHMAzHDKT7VZhiti4kNAjN3rkWUFeOQIDAQABAoIBAQCq3pQ22SYJlbMy
+            qEzgYfoOFtfMkd3I7a+Nq/qJg5T+EAFjPXY0z8baiAG0zvH7De3o699N2R7nFhHv
+            LLodH3HnhGQMXNv5rXlmWYJJRLAi/JGwKf7LMD72wz0nkIffe5Igi3T2VpBnFYkq
+            iyxINFiVrdEXxD+RHrOd29TgO5RKDJrwRog5idpq3RVZtCcl1vVKoSozh53mnFBg
+            y/6/TTnFbJK3QxjvZjBz6Mlouc5Vit5/lJZROj5w+AE1RF51Z3MmZt+2HNntD55L
+            nfSgVGPGWi6su7rP9fkqpVIwGUlIsI8L0KHUoPGs0pGcx9mVrZzrdGB9HHZXUXzM
+            JtJP6PiBAoGBAOWt7VckXMVHcMxeuOWQ4wVkQNqpyOUceQOuUi0n1+VSlSy+7jIj
+            GKb6x+sqh9WKG4nQHP9h/JJu55ULrXz3Ek14cLsw1YIfNpPEUlY0E7cRaNcPUWXj
+            qjrr+p6fKjBxJmeX+/rtPSCYeGRcRrXvugLQBEDK+sUBhq2Zoe+QFtVrAoGBAMvk
+            zbetIr65wmipZgUgIE8TnDrH3lxamqlE8FCq8zqDpWu+ZXl3BzjzBdtnfBTMVx6B
+            vLloyKox2HmNKoujFT7Wt5Wpj1jkzKn54aeXOh/BazmIeJJxNbgubtMl42+UeExa
+            03ZW8EDZKm5aqfj3+6JFy9r0mvWePgAhpXECup/rAoGBANB5JHr6eHJgvBPkznMh
+            Jc8ZBnzzq3O6emVK7zApgB+Y6+pni5Fapd+6tYfRXOYIq6JVklyENls761wv81MA
+            eE51Se2/D61CY6mQgyPXtSVv2feK4dlX4oYE98DOu96odbGGFKPYfql9e5ms4En3
+            xKEU6ydclm4HSpV8Y64s3WztAoGAVOCwyq+mcSM/TPaH48ZV7NVLCiU96dBF5gUu
+            zUX87vTyngGqmH/2X7y7SXSw8K+H7MkxWTXHoyIQ7bjYZzzCkWAtGH53kBffIztE
+            ttF7ftCz5EVte/jo1f1uYTO6lC6ITbDZqr/SUAyXX00ayOvistC/ZizBfVIcmU1o
+            Y70xF3UCgYBfD0ENrenD21DIAWni6Eh9VgYpykzvqUB3Zros+qkLtR7s3hhhsHwt
+            QaMO9HjW8GtqWD+39Dcg7TP2HZflOvJyHTjwAwf/pjL/KEkH3d1T3VFTylqS9VFk
+            Wj3oAFC6qUJVFfDXd1qV8c31TxK38oCaSx2yroQOBmvrF0mjyNvQPg==
+            -----END RSA PRIVATE KEY-----
+  security:
+    user:
+      name: qmaolong
+      password: qml3829008
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

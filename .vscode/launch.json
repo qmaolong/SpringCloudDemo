@@ -1,0 +1,98 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "com.springcloud.normal.Test",
+            "projectName": "normal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NacosClient1Application<nacos-client-1>",
+            "request": "launch",
+            "mainClass": "com.springboot.nacosclient1.NacosClient1Application",
+            "projectName": "nacos-client-1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NacosClient2Application<nacos-client-2>",
+            "request": "launch",
+            "mainClass": "com.springcloud.nacosclient2.NacosClient2Application",
+            "projectName": "nacos-client-2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpringConfigApplication<config-server>",
+            "request": "launch",
+            "mainClass": "com.springcloud.config.SpringConfigApplication",
+            "projectName": "config-server"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EurekaClient1Application<eureka-client-1>",
+            "request": "launch",
+            "mainClass": "com.springcloud.eurekaclient1.EurekaClient1Application",
+            "projectName": "eureka-client-1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EurekaClient2Application<eureka-client-2>",
+            "request": "launch",
+            "mainClass": "com.springcloud.eurekaclient2.EurekaClient2Application",
+            "projectName": "eureka-client-2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EurekaApplication<eureka-server>",
+            "request": "launch",
+            "mainClass": "com.springcloud.eureka.EurekaApplication",
+            "projectName": "eureka-server"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GatewayApplication<gateway>",
+            "request": "launch",
+            "mainClass": "com.springcloud.gateway.GatewayApplication",
+            "projectName": "gateway"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HystrixdashbordApplication<hystrix-dashbord>",
+            "request": "launch",
+            "mainClass": "com.springcloud.hystrixdashbord.HystrixdashbordApplication",
+            "projectName": "hystrix-dashbord"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NacosServiceDiscoveryApplication<nacos-service-discovery>",
+            "request": "launch",
+            "mainClass": "com.springcloud.NacosServiceDiscoveryApplication",
+            "projectName": "nacos-service-discovery"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZipkinServerApplication<zipkin-server>",
+            "request": "launch",
+            "mainClass": "com.springcloud.zipkinserver.ZipkinServerApplication",
+            "projectName": "zipkin-server"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZuulApplication<zuul>",
+            "request": "launch",
+            "mainClass": "com.springcloud.zuul.ZuulApplication",
+            "projectName": "zuul"
+        }
+    ]
+}

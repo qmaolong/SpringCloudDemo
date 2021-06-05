@@ -1,0 +1,13 @@
+/.idea/
+/eureka-server/.mvn/wrapper/
+/**/target/
+/**/*.iml
+/eureka-server/*.iml
+*.iml
+.project
+/**/.settings/
+settings.json
+common/.classpath
+/**/.classpath
+/**/.factorypath
+spring.log
